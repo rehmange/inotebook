@@ -1,0 +1,32 @@
+npx create-react-app [App Name]
+
+------------------------------------------------------------------------------------
+For backend folder open terminal and run command {npm init}
+install packages 
+	npm i express
+	npm i mongoose
+	npm i -D nodemon
+
+-----------------------------------------------------------------------------
+Install Thunder client extension in visual studio  but we can also use postmen for that
+
+---------------------------------------------------------------
+
+we we want to body.request then perform below steps:
+
+1:In thunder client set Content-Type  application/json
+2:In index.js use a middleware  app.use(express.json())
+
+----------------------------------------------------------------------------
+
+For Validation We will use a expressValidator module
+
+For Security We will use a bycrypt js module
+For session after user login we will use jwt module
+
+-----------------------------------------------------------------------------------------------------React App
+
+npm i react-router-dom
+npm i concurrently //used for run server at same time
+
+npm install react-bootstrap bootstrap ///////// For Modal 
